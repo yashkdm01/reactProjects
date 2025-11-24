@@ -15,7 +15,8 @@
 
 .movies-grid {
   display: grid;
-  grid-template-columns: repeat(max-width 250px);
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  justify-content: start;
   align-content: flex-start;
   gap: 2rem;
   width: 100%;
